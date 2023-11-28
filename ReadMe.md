@@ -11,11 +11,11 @@ Coldwell Banker wants to buy undervalued homes in certain zipcodes to minimally 
 
 This project uses the King County House Sales dataset. It contains over 30,000 entries of data related to the sale price of houses, number of bedrooms,bathrooms and floors, square footage, addresses, and more. The main dataframe used in this project only contained roughly 14,000 entries. A limitation of the data was that it is fairly small since we are dealing with predictive modeling. Also the features of the data were strongly correlated with each other (multicolinearity) rather than the target variable. The dataset is suitable for this project because it has information to reveal which homes are truly being undervalued in certain zipcodes. After analyzing the price, location, and other various specifications and amenities of homes I will be able to make informed recommendations to the real estate agency.
 
+King County House Sales dataset: https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-v2-5/main/data/kc_house_data.csv
+
 # Data Preperation
 
 In this section I checked for missing values and removed columns that I would not be needing for my analysis. I extracted zipcodes from the addresses and I started sorting homes by zipcodes. I also sorted homes by the median price as well as zipcodes and created a new dataframe this way. I focused on homes in certain zipcodes below the median price for the county. I ran some measures of central tendency and found the median price of homes for the county was $860,000. I set up a train, test, split on my dataframe to prepare for modeling to get results for training and testing data on my features. I created an "evaluate_model" function to look at the root mean squared error, r2 score, and mean absolute error between my training and testing data.
-
-https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-v2-5/main/data/kc_house_data.csv
 
 
 # Modeling
@@ -37,7 +37,7 @@ The main limitations of this dataset was that there was a lot of multicolinearit
 
 ## Next Steps
 
-We need a lot more data/records (hundreds of thousands) specifically in the zipcodes below the median price for homes in the county. Ideally trying to find features that are not multicolinear with each other. Obtaining data on schools in the district as well as crime reports in the county would be helpful as they would definitely have an impact on price. Also looking at economic features of the area would be useful. Determining if homes located near major companies/This kind of data would not be correlated with standard features of a homes as well.  
+We need a lot more data/records (hundreds of thousands) specifically in the zipcodes below the median price for homes in the county. Ideally trying to find features that do not have a lot of multicolinearity. Also obtaining data on schools in the district as well as crime reports in the county would be helpful as the would definitely have an impact on price. This kind of data would not be correlated with standard features of a home. Also gathering other economic data would be beneficial such as if there are major companies close by for work or other shopping plazas/restaurants nearby and how this would affect the price of homes. 
 
 
 ## For More Information
