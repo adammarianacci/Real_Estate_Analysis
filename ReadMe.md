@@ -42,7 +42,7 @@ We need a lot more data/records (hundreds of thousands) specifically in the zipc
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](.ipynb) or review this [presentation](.pdf).
+See the full analysis in the [Jupyter Notebook](.ipynb) or review this [presentation](.\Real_Estate_Analysis_presentation.pdf).
 
 For additional info, contact Adam Marianacci (mailto:adam.marianacci@gmail.com)
 
