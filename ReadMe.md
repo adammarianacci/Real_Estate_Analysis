@@ -27,11 +27,15 @@ This project uses Linear regression modeling to predict various features of home
 
 # Conclusions
 
-The "kitchen sink" model is the best performing model. However this model should really not be used for real world predictions. We need to gather a lot more data (hundreds of thousands more entries) specifically in homes in the low median priced zipcode areas. Ideally looking for data that is not so colinear so that the regression models can be more useful/predictive. However in the meantime the low median priced zipcodes would be good areas to target. The top zipcode to focus on would be the '98168' area as it is showing the most homes with a 'fair' or 'low average' grade that in theory would return profits easily with minimal renovations.
+The "kitchen sink" model is the best performing model. However this model should really not be used for real world predictions. We need to gather a lot more data (hundreds of thousands more entries) specifically in homes in the low median priced zipcode areas. Ideally looking for data that is not so collinear so that the regression models can be more useful/predictive. However in the meantime the low median priced zipcodes would be good areas to target. The top zipcode to focus on would be the '98168' area as it is showing the most homes with a 'fair' or 'low average' grade that in theory would return profits easily with minimal renovations.
 
 ## Evaluation
 
 The "kitchen sink" model is the best performing model. It has the highest variance of the 3 models but it is still fairly low at 33.2%. It has the lowest root mean squared error of the 3 models at roughly 312,000 (USD) which is still very large. For these reasons the model should not be used for predictive measures. From the model we did learn that one unit of square footage is approximately equal to to about 128 USD in price. A 1 unit increase in grade is approximately equal to 96,000 USD in price which seems high. It also shows that an additional bathroom is equal to about 17,000 USD in price. These are the features that seem to have the biggest impact on price.
+
+## Recommendations
+
+I found that Square footage and Grade were the features most correlated with price. Adding 1 square foot to a home will increase the value by roughly 130 USD. Minimal renovations such as painting, replacing doors and flooring could really improve the Grade of a home which showed roughly a 96,000 USD increase when improving a home by 1 grade which would increase profits. Coldwell Banker should also target homes in the zipcodes that are below the median price for the county. Further they should target homes in the zipcodes that had the most 'fair' and 'low average' grades so that they can apply necessary renovations to increase the value of these homes.
 
 ## Limitations
 
