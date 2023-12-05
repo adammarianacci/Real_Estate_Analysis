@@ -20,7 +20,7 @@ In this section I checked for missing values and removed columns that I would no
 
 # Modeling
 
-This project uses Linear regression modeling to predict various features of homes against the target variable of price. The feature that had the strongest correlation with price was 'sqft_living' which is the square footage of a home. I built a baseline model from the 2 variables 'sqft_living' and 'price'. I then went on to build 2 other models that added more features such as 'floors', 'bedrooms', 'sqft_patio', etc. against the target variable 'price'. I found that the number of bathrooms and the overall grade of the house also had a strong impact on price along with sqft_living. The results of my modeling can be further explained in the "Evaluation" section.
+3 Linear regression models were built to predict various features of homes against the target variable of price. The feature that had the strongest correlation with price was 'sqft_living' which is the square footage of a home. I built a baseline model from the 2 variables 'sqft_living' and 'price'. I then went on to build 2 other models that added more features such as 'floors', 'bedrooms', 'sqft_patio', etc. against the target variable 'price'. I found that the number of bathrooms and the overall grade of the house also had a strong impact on price along with sqft_living. The results of my modeling can be further explained in the "Evaluation" section.
 
 
 # Conclusions
@@ -35,7 +35,7 @@ The "kitchen sink" model is the best performing model. It has the highest varian
 
 ## Recommendations
 
-I found that Square footage and Grade were the features most correlated with price. Adding 1 square foot to a home will increase the value by roughly 130 USD. Minimal renovations such as painting, replacing doors and flooring could really improve the Grade of a home which showed roughly a 96,000 USD increase when improving a home by 1 grade which would increase profits. Coldwell Banker should also target homes in the zipcodes that are below the median price for the county. Further they should target homes in the zipcodes that had the most 'fair' and 'low average' grades so that they can apply necessary renovations to increase the value of these homes.
+I found that Square footage and Grade were the features most correlated with price after evaluating my model. Adding 1 square foot to a home will increase the value by roughly 130 USD. Minimal renovations such as painting, replacing doors and flooring could really improve the Grade of a home which showed roughly a 96,000 USD increase when improving a home by 1 grade which would increase profits. Coldwell Banker should also target homes in the zipcodes that are below the median price for the county. Further they should target homes in the zipcodes that had the most 'fair' and 'low average' grades so that they can apply necessary renovations to increase the value of these homes.
 
 ## Limitations
 
