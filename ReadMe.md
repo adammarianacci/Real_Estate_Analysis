@@ -25,7 +25,7 @@ This project uses Linear regression modeling to predict various features of home
 
 # Conclusions
 
-The "kitchen sink" model is the best performing model. However this model should really not be used for real world predictions. We need to gather a lot more data (hundreds of thousands more entries) specifically in homes in the low median priced zipcode areas. Ideally looking for data that is not so collinear so that the regression models can be more useful/predictive. However in the meantime the low median priced zipcodes would be good areas to target. The top zipcodes to focus on would be the '98168','98146', and the '98118' areas as they are showing the most homes with a 'fair' or 'low average' grade that in theory would return profits easily with minimal renovations.
+The "kitchen sink" model is the best performing model. However this model should really not be used for real world predictions. We need to gather a lot more data (hundreds of thousands more entries) specifically in homes in the low median priced zipcode areas. Ideally looking for data that is not so collinear so that the regression models can be more useful/predictive. However Coldwell Banker can start targeting homes in the low median priced zipcodes. The top zipcodes to focus on would be the '98168','98146', and the '98118' areas as they are showing homes with the most 'fair' or 'low average' grades that in theory would return profits with minimal renovations.
 
 ![MedianPrice](images/MedianPrice.png)
 
